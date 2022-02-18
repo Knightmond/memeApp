@@ -2,6 +2,30 @@
   text-align: center;
 }
 
+.meme {
+  display: block;
+  max-width: 400px;
+  max-height: 400px;
+  margin: auto;
+}
+.meme span {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  margin-top: 10px;
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 43px;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+.meme span:nth-child(1) {
+  margin-top: 345px;
+}
+.meme img {
+  width: 400px;
+  height: 400px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
